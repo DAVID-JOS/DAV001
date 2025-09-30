@@ -1,0 +1,38 @@
+<head>
+  <title>Mine App</title>
+</head>
+
+<body>
+  {{> body}}
+</body>
+
+<template name="body">
+  <h1>🚀 Mine App (Meteor.js)</h1>
+
+  <!-- 💰 Wallets -->
+  <h3>💰 Wallets</h3>
+  <div id="wallets">
+    {{#each wallets}}
+      <p>{{address}} — Balance: {{balance}} SKD</p>
+    {{/each}}
+  </div>
+
+  <!-- ➕ Add Wallet -->
+  <h3>➕ Add Wallet</h3>
+  <input type="text" id="walletAddress" placeholder="Wallet address" />
+  <button id="addWallet">Add Wallet</button>
+
+  <!-- 💱 Exchange -->
+  <h3>💱 Exchange</h3>
+  <input type="number" id="usdAmount" placeholder="USD amount" />
+  <button id="convertToNaira">Convert to ₦</button>
+  <p id="exchangeResult"></p>
+
+  <!-- 🏦 Transfer -->
+  <h3>🏦 Transfer (Auto Cash-Out)</h3>
+  <p>Click button to cash-out full SKD balance → NGN → Moniepoint</p>
+  <input type="text" id="acctNum" placeholder="Account Number" />
+  <input type="text" id="bankCode" placeholder="Bank Code" />
+  <button id="transferBtn">💸 Cash-Out to Moniepoint</button>
+  <p id="transferResult"></p>
+    </template>
