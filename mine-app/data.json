@@ -1,0 +1,12 @@
+{
+  "wallets": [
+    {
+      "address": "WALLET_001",
+      "balance": 0
+    },
+    {
+      "address": "WALLET_002",
+      "balance": 0
+    }
+  ]
+}
