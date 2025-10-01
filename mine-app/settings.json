@@ -1,0 +1,16 @@
+{
+  "public": {
+    "appName": "Mine App",
+    "version": "1.0.0"
+  },
+  "private": {
+    "license": "MIT",
+    "owner": "Daniel David Oluwayimika",
+    "environment": "production",
+    "moniepoint": {
+      "apiKey": "https://personal-api-dkta.onrender.com/", 
+      "secretKey": "8ab2369c1dd045f5b4e318b281d2a2fb_263ce2",
+      "baseUrl": "https://api.moniepoint.com/v1"
+    }
+  }
+}
