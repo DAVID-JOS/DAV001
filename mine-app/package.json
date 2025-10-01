@@ -1,0 +1,15 @@
+{
+  "name": "mine-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🚀 Mine App backend + frontend",
+  "scripts": {
+    "start": "meteor run --settings settings.json --port 3000"
+  },
+  "author": "Daniel David Oluwayimika",
+  "license": "MIT",
+  "dependencies": {
+    "meteor-node-stubs": "^1.2.3",
+    "meteor-dotenv": "https://registry.yarnpkg.com/meteor-dotenv/-/meteor-dotenv-3.0.0.tgz"
+  }
+}
